@@ -32,7 +32,7 @@ const Add = () => {
       <div>
         <input 
           type="text" 
-          placeholder="Search by number" 
+          placeholder="Buscar por imgen" 
           value={searchIndex} 
           onChange={(e) => setSearchIndex(e.target.value)} 
         />
@@ -41,7 +41,7 @@ const Add = () => {
 
       {searchedImage && (
         <div>
-          <h3>Search Result</h3>
+          <h3>Imagen buscada:</h3>
           <img src={searchedImage} alt="Searched" />
         </div>
       )}
