@@ -1,0 +1,52 @@
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.entrada {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  min-width: 180px;
+}
+
+.boton {
+  padding: 8px 16px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #218838;
+}
+
+.botonEliminar {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.botonEliminar:hover {
+  background-color: #c82333;
+}
+
+.seleccion {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
